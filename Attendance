@@ -1,3 +1,11 @@
+@@ -1,7 +1,49 @@
+echo "# Attendance-QR-Code-System" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/xavier-tears/Attendance-QR-Code-System.git
+git push -u origin main
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +17,7 @@
 </head>
 <body>
     <h1>12-Onion Attendance Registration Portal</h1>
-    
+
     <form id="registrationForm">
         <input type="text" id="name" placeholder="Full Name" required><br>
         <input type="text" id="grade" placeholder="Grade & Section" required><br>
@@ -25,9 +33,9 @@
         <img id="qrCode" alt="QR Code will be displayed here"><br>
     </div>
     <body><i>*Please take a Screenshot or download the QR Code.</i></body>
-    
+
     <script src="script.js"></script>
-    
+
 </body>
 
 <footer>
